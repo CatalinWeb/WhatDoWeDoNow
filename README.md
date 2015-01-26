@@ -2,6 +2,7 @@
 The game for What do we do now challenge for Game Jam 2015
 
 **If you want to see how the server works:**
+
 1. Run the server
 2. Modify `Game1.cs` line 46 from `game = new GameSinglePlayer();` to `game = new GameMultiPlayer();` and run the game
 3. Go in the folder where the game compiled (eg. WhatDoWeDoNow\WhatDoWeDoNow\bin\x86\Debug) and run WhatDoWeDoNow.exe multiple times to simulate different players playing at the same time.
